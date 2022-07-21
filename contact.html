@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Thong">
+	<meta name="desc" content="contact">
+	<title>My Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/design.css">
+</head>
+<body>
+	<header>
+		<div id="heading_content">
+			<h1>Welcome To My Resume</h1>
+		</div>
+		<nav>
+			<a href="cv.html" class="nav_left">My CV</a>
+			<a href="projects.html" class="nav_left">Projects</a>
+			<a href="blog.html" class="nav_left">Blog</a>
+			<a href="contact.html" class="nav_left">Contact</a>
+			<a href="index.html" class="nav_right">Home</a>
+		</nav>
+	</header>
+	<main class="main">
+		<h1>Contact me</h1>
+		<div id="contact_info">
+			<h2>Contact information:</h2>
+			<ul>
+				<li class="contact"><strong>Email: </strong>s3924667@rmit.edu.vn</li>
+				<li class="contact"><strong>Personal Email: </strong>minhthongtran2003@gmail.com</li>
+				<li class="contact"><strong>Phone: </strong>0909090909</li>
+				<li class="contact"><strong>Facebook: </strong><a href="https://www.facebook.com/">Thong Tran</a></li>
+		</div>
+
+		<div id="appointment">
+			<h2>Book appointment:</h2>
+
+			<form method="post" enctype="multipart/form-data">
+				<fieldset>
+					<label for="name"><strong>Your name:</strong></label>
+					<input type="text" name="name" id="name" placeholder="Your full name"> <br> <br>
+
+					<label><strong>Contact method:</strong></label> <br>
+					<input type="radio" id="online" name="contact_method">
+					<label for="online">Online</label> <br>
+
+					<input type="radio" id="offline" name="contact_method">
+					<label for="offline">Offline</label> <br><br>
+
+					<label><strong>Your available meeting dates:</strong></label><br>
+					<input type="checkbox" name="available_dates[]" id="monday">
+					<label for="monday">Monday</label><br>
+					<input type="checkbox" name="available_dates[]" id="tuesday">
+					<label for="tuesday">Tuesday</label><br>
+					<input type="checkbox" name="available_dates[]" id="wednesday">
+					<label for="wednesday">Wednesday</label><br>
+					<input type="checkbox" name="available_dates[]" id="thursday">
+					<label for="thursday">Thursday</label><br>
+					<input type="checkbox" name="available_dates[]" id="friday">
+					<label for="friday">Friday</label><br><br>
+
+					<label for="purpose"><strong>The purpose why you meet me:</strong></label><br>
+					<textarea cols="30" rows="10" type="textarea" id="purpose" placeholder="Write a brief description"></textarea><br><br>
+
+					<label for="file"><strong>If have any files want to show me, upload here:</strong></label><br>
+					<input type="file" id="file"> <br><br>
+
+					<input type="submit" value="send">
+					<input type="reset" value="reset">
+				</fieldset>
+			</form><br><br>
+		</div>
+		</ul>
+	</main>
+
+	<footer>
+			Created by Thong <br>
+			Contact: 0934083109 or via <a href="mailto: minhthongtran2003@gmail.com">email</a>
+	</footer>
+</body>
+</html>

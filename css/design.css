@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+}
+
+.main{
+	padding: 10px;
+}
+
+#heading_content {
+	padding: 20px;
+	background-color: #0B0B45;
+	text-align: center;
+	color: #e8eaed;
+}
+
+#avatar {   
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    position: relative;
+    left: 10px;
+}
+
+header nav {
+	overflow: hidden;
+	background-color: #2c2e30;
+}
+
+.nav_left{
+	text-decoration: none;
+	color: #e8eaed;
+	padding: 15px;
+	display: block;
+	float: left;
+}
+
+.nav_right{
+	text-decoration: none;
+	color: #e8eaed;
+	padding: 15px;
+	display: block;
+	float: right;
+}
+
+header nav a:hover {
+	background-color: #ebf2f0;
+	color: black;
+}
+
+footer	{
+	padding: 5px;
+	text-align: center;
+	color: white;
+	background-color: #2c2e30;
+}
+
+footer a{
+	color: white;
+}
+
+#flex_container{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.left_side {
+	flex: 30%;
+	background-color:#f1f1f1;
+	padding:10px;
+}
+
+.right_side {
+	flex: 70%;
+	padding:10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 20px 50px;
+}
+
+table tr:nth-child(2n+1){background-color: #f2f2f2;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.blog_img{
+	width: 15em;
+	float: left;
+}
+
+.blog::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+
+.vl{
+	border-left: 2px solid black;
+	height: 100;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#container{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#centered_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
